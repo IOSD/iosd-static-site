@@ -173,8 +173,8 @@ var App = {
 				effect:"zoom",
 
 				images:[
-					"http://placehold.it/1920x1080/ffadaa",
-					"http://placehold.it/1920x1080/ceffaa",
+					"https://cdn.rawgit.com/IOSD/Synergy17-Webiste/42470c3c/assets/img/custom/backdrop.jpg",
+					"https://cdn.rawgit.com/IOSD/iosd.github.io/b0d790b3/images/SLIDER.jpg",
 				]
 				
 			});

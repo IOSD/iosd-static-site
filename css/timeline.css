@@ -201,7 +201,7 @@ body {
 }
 @media (min-width: 1000px) {
   #timeline .demo-card .body {
-    height: 360px;
+    height: 370px;
   }
 }
 #timeline .demo-card .body p {
