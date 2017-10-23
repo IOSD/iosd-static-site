@@ -409,7 +409,7 @@ var App = {
 	create_map: function(mapContainer) {
 
 		var mapOptions = {
-			center: new google.maps.LatLng(37.40330, -121.98499), //37.36456, -121.92852
+			center: new google.maps.LatLng(28.67, 77.26), //37.36456, -121.92852
 			zoom: 13,
 			navigationControl: false,
 			mapTypeControl: false,
@@ -436,7 +436,7 @@ var App = {
 	create_marker: function() {
 		
 		var pinImage = new google.maps.MarkerImage('img/marker.png'),
-		myPin = new google.maps.LatLng(37.37758, -122.05391);
+		myPin = new google.maps.LatLng(28.6404, 77.1859);
 		
 		marker = new google.maps.Marker({
 			position: myPin,
@@ -454,11 +454,7 @@ var App = {
 		/*jshint multistr: true*/
 		boxText.innerHTML = "\
 			<div class='marker-label'>\
-				San Jose. Address: 350<br>\
-				Fifth Avenue, 34th floor.<br>\
-				San Jose, CA 10118-3299<br>\
-				USA Tel: +1-212-290-4700.<br>\
-				Fax: +1-212-736-1300.\
+				Home\
 				</div>\
 			";
 
